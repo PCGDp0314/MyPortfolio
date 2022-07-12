@@ -9,7 +9,7 @@
     <script src="script.js" defer></script><!--外部ファイルを読み込み 実行タイミングはDOM読み込み後 -->
 </head>
 <body>
-    <header>
+    <div class="hero">
         <a href="#"><img src="img/読書アイコン.svg" alt="サイトロゴ"></a>
         <div class="hamburger-menu">
             <input type="checkbox" id="menu-btn-check">
@@ -34,11 +34,11 @@
                 </ul>
             </div>
         </div>
-    </header>
+        <div class="hero-text">
+            <h1>Kazuma Eba</h1>
+            <p>江場 一真</p>
+        </div>
 
-    <div class="hero">
-        <h1>Kazuma Eba</h1>
-        <p>江場 一真</p>
         <video src="Skyscrapers - 91744.mp4" autoplay loop muted>
             <!-- 対応していない場合にはこの内容が表示されます。 -->
             <p>お使いのブラウザは、動画の再生に対応しておりません。</p>
@@ -47,7 +47,11 @@
 
     <div class="profile">
         <h2>Profile</h2>
-        <p>自己紹介文をここに書きます。自己紹介文をここに書きます。自己紹介文をここに書きます。自己紹介文をここに書きます。自己紹介文をここに書きます。</p>
+        <p>自己紹介文をここに書きます。自己紹介文をここに書きます。自己紹介文をここに書きます。自己紹介文をここに書きます。自己紹介文をここに書きます。自己紹介文をここに書きます。自己紹介文をここに書きます。自己紹介文をここに書きます。自己紹介文をここに書きます。自己紹介文をここに書きます。自己紹介文をここに書きます。自己紹介文をここに書きます。自己紹介文をここに書きます。自己紹介文をここに書きます。自己紹介文をここに書きます。</p>
+    </div>
+
+    <div class="Myskills">
+        <h2>My skills</h2>
     </div>
 
     <div class="vision">
@@ -61,8 +65,17 @@
 
     <div class="contact">
         <h2>Contact</h2>
+        <p>お問い合わせにあたっての説明などを書きます。お問い合わせにあたっての説明などを書きます。お問い合わせにあたっての説明などを書きます。</p>
+        <form action="" method="post">
+            <h3>Name</h3>
+            <div class="name-space"><input name = "onamae" required type="text" placeholder="  山田　太郎"></div>
+            <h3>Mail adress</h3>
+            <div class="mail-space"><input name = "email" type="email" placeholder="  example@example.com"></div>
+            <h3>Message</h3>
+            <label for = "contacttext"></label><textarea id="contacttext" name="contacttext" required rows="10" cols="50" ></textarea>
+            <button>送信</button>
+        </form>
     </div>
-
     <footer><p>©︎ 2022 Kazuma Eba.</p></footer>
 
 </body>
