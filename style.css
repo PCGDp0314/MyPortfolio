@@ -7,8 +7,24 @@
     box-sizing: inherit;
 }
 :root {
-    font-size: 16pt;
-    font-family: 'M PLUS Rounded 1c', sans-serif;}
+    font-size: 16px;
+    font-family: 'Hiragino Kaku Gothic ProN', 'M PLUS Rounded 1c', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: normal;
+}
 
 body {
     background-color: #F7F7F7;
@@ -152,7 +168,6 @@ body {
     transform: translate(-50%, -50%);
 }
 .hero-text h1 {
-    font-size: 5em;
     text-align: center;
     color: #ffffff;
 }
@@ -168,19 +183,27 @@ body {
 }
 
 .profile {
-    margin: 284px 264px 0 264px;
+    margin: 264px 264px 0 264px;
+}
+
+.profile p {
+    margin-top: 36px;
 }
 
 .Myskills {
-    margin: 284px 264px 0 264px;
+    margin: 264px 264px 0 264px;
 }
 
 .vision {
-    margin: 284px 264px 0 264px;
+    margin: 264px 264px 0 264px;
+}
+
+.vision p {
+    margin-top: 36px;
 }
 
 .works {
-    margin: 284px 0 0 0;
+    margin: 264px 0 0 0;
 }
 
 .works h2 {
@@ -188,7 +211,19 @@ body {
 }
 
 .contact {
-    margin: 284px 264px 0 264px;
+    margin: 264px 264px 0 264px;
+}
+
+.contact p {
+    margin-top: 36px;
+}
+
+form h3 {
+    margin-top: 48px;
+}
+
+form .name-space, .mail-space, #contacttext {
+    margin-top: 24px;
 }
 
 form .name-space input {
@@ -211,11 +246,9 @@ textarea {
 }
 
 button {
-    margin-left: 100px;
-    margin-right: 100px;
     border-radius: 5px;
     display: block;
-    margin: 0 auto;
+    margin: 24px auto 0 auto;
     text-decoration: none;
     border: 1px black solid;
     height: 40px;
@@ -225,5 +258,6 @@ button {
 }
 
 footer {
+    margin-top: 48px;
     text-align: center;
 }
