@@ -44,7 +44,7 @@ body {
 ハンバーガーメニュー
 *****************/
 
-.menu-btn {
+#menu-btn {
     position: fixed;
     top: 10px;
     right: 10px;
@@ -55,9 +55,9 @@ body {
     align-items: center;
     z-index: 90;
 }
-.menu-btn span,
-.menu-btn span:before,
-.menu-btn span:after {
+#menu-btn span,
+#menu-btn span:before,
+#menu-btn span:after {
     content: '';
     display: block;
     height: 3px;
@@ -66,20 +66,20 @@ body {
     background-color: #ffffff;
     position: absolute;
 }
-.menu-btn span:before {
+#menu-btn span:before {
     bottom: 8px;
 }
-.menu-btn span:after {
+#menu-btn span:after {
     top: 8px;
 }
-#menu-btn-check:checked ~ .menu-btn span {
+#menu-btn-check:checked ~ #menu-btn span {
     background-color: rgba(255, 255, 255, 0);/*メニューオープン時は真ん中の線を透明にする*/
 }
-#menu-btn-check:checked ~ .menu-btn span::before {
+#menu-btn-check:checked ~ #menu-btn span::before {
     bottom: 0;
     transform: rotate(45deg);
 }
-#menu-btn-check:checked ~ .menu-btn span::after {
+#menu-btn-check:checked ~ #menu-btn span::after {
     top: 0;
     transform: rotate(-45deg);
 }
