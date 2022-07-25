@@ -1,8 +1,3 @@
-/*読み込んだらロード画面を表示*/
-window.onload = ()=>{
-  const loader = document.getElementById('loader');
-  loader.classList.add('loaded');
-}
 
 /*ハンバーガーメニューをスクロールに合わせて背景色変更*/
 window.addEventListener( "scroll" ,function(){
