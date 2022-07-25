@@ -267,8 +267,10 @@ body {
 .tab li a{
   display: block;
   background:rgb(255, 222, 122);
+  width: 170px;
   margin:0 2px;
   padding:10px 20px;
+  text-align: center;
 }
 /*liにactiveクラスがついた時の形状*/
 .tab li.active a{
