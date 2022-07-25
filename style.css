@@ -91,6 +91,7 @@ body {
 #menu-btn-check {
     display: none;
 }
+
 .menu-content {
     width: 100%;
     height: 100%;
@@ -140,10 +141,6 @@ body {
     position: absolute;
     right: 11px;
     top: 16px;
-}
-
-.menu-content ul li a::before :focus{
-	display:none;
 }
 
 .menu-content {
