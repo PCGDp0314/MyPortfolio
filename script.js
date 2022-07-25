@@ -6,7 +6,7 @@ window.addEventListener( "scroll" ,function(){
     let element = document.getElementById("menu-btn");
     
     if (scroll >= 827.5) {
-        element.style.backgroundColor = '#000000';
+        element.style.backgroundColor = '#888888';
       } else {
         element.style.backgroundColor = 'rgba(0, 0, 0, 0)';
       }
