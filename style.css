@@ -291,6 +291,7 @@ body {
 
 .area ul li {
     text-align: center;
+    padding-bottom: 50px !important;
 }
 
 /*areaにis-activeというクラスがついた時の形状*/
