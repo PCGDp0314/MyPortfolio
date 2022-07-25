@@ -238,7 +238,7 @@ body {
     left: 0;
     height: 100%;
     width: 0; /* 初期状態では0 */
-    background-color: #34e8d7; /* スキルバーの色 */
+    background-color: rgb(255, 180, 42); /* スキルバーの色 */
     transition: width 3s cubic-bezier(0.22, 1, 0.36, 1); /* スキルバーが伸びる速度を調整 */
   }
 
@@ -266,7 +266,7 @@ body {
 }
 .tab li a{
   display: block;
-  background:#ddd;
+  background:rgb(255, 222, 122);
   margin:0 2px;
   padding:10px 20px;
 }
@@ -385,11 +385,11 @@ button {
     display: block;
     margin: 24px auto 0 auto;
     text-decoration: none;
-    border: 1px black solid;
+    border: none;
     height: 40px;
     width: 600px;
-    background-color: white;
-    color: black;
+    background-color: rgb(255, 144, 54);
+    color: rgb(0, 0, 0);
 }
 
 footer {
